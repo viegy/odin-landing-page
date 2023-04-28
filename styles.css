@@ -133,7 +133,7 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 120px 400px;
+    padding: 150px 400px;
     color:#1F2937
 }
 
@@ -148,4 +148,41 @@ button{
     text-align: right;
     font-weight: bolder;
     font-size: 26px;
+}
+
+/* ----------  BOTTOM PART  ------------*/
+
+.bottom{
+    background-color: #3882F6;
+    margin: 150px 220px;
+    padding: 60px 150px;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bold{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.nobold{
+    font-size: 18px;
+}
+
+.button_two{
+    border: 2px solid white;
+}
+
+/* ----------  FOOTER  ------------*/
+
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding: 50px 0px;
 }
